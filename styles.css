@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+     src: url("assets/fonts/NewRocker-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    font-size: 1.6rem;
+    background-color: #163808;
+    color: #E1D4C9;
+}
+
+img {
+    object-fit: contain;
+}
+
+.game-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    background-color: #163808;
+    color: #E1D4C9;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: transform 0.1s, background 0.2s, box-shadow 0.2s;
+    font-weight: 600;
+}
+
+.button:hover {
+  background: #405936;
+  box-shadow: 0 0 12px rgba(59, 130, 246, 0.5);
+}
+
+.footer {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -63,3 +63,12 @@ img {
     align-items: center;
     flex-wrap: wrap;
 }
+
+.stat-wrapper {
+    padding: 10px;
+    display: flex;
+    gap: 2rem;
+    background: #405936;
+    box-shadow: 0 0 12px rgba(59, 130, 246, 0.5);
+    border-radius: 10px;
+}

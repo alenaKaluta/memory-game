@@ -63,3 +63,4 @@ footer.appendChild(pairsBox);
 gameContainer.appendChild(footer);
 
 body.appendChild(gameContainer);
+

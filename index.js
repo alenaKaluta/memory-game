@@ -64,3 +64,25 @@ gameContainer.appendChild(footer);
 
 body.appendChild(gameContainer);
 
+function createCard(value) {
+  const card = createElement('div', 'card');
+  card.dataset.value = value;
+
+  const inner = createElement('div', 'card-inner');
+
+  const faceDown = createElement('div','card-face card-face-down');
+
+  const faceUp = createElement('div', 'card-face card-face-up');
+  const img = createElement('img', 'card-img');
+  img.src = value;
+  img.alt = 'card-img';
+  faceUp.appendChild(img);
+
+  inner.appendChild(faceDown);
+  inner.appendChild(faceUp);
+
+  card.appendChild(inner);
+
+  return card
+};
+
